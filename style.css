@@ -148,12 +148,11 @@ h2 {
       margin-right: 0px;
       margin-bottom: 10px;
       width: 1000px;
-      max-width: 1100px;
-      height: auto;
+      height: 1400px;
     }
   .responsive {
     width: 100%;
-    max-width: 1050px;
+    max-width: 950px;
     height: auto;
     
   }
