@@ -30,7 +30,7 @@ body {
 }
   
   main {
-    max-width: 1170px;
+    max-width: 1270px;
     margin-left: auto;
     margin-right: auto;
   }
@@ -131,7 +131,7 @@ h2 {
 }
 
 
-  @media screen and (max-width: 1100px) {
+  @media screen and (max-width: 1199px) {
     main {
       margin-left: auto;
       margin-right: auto;
@@ -147,11 +147,12 @@ h2 {
       margin-left: auto;
       margin-right: auto;
       margin-bottom: 10px;
-      width: 900px;
+      width: 95%;
     }
   .responsive {
     width: 100%;
     max-width: auto;
     height: auto;
+    
   }
   }  
