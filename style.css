@@ -149,4 +149,9 @@ h2 {
       margin-bottom: 10px;
       width: 900px;
     }
+  .responsive {
+    width: 100%;
+    max-width: auto;
+    height: auto;
+  }
   }  
