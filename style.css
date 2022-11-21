@@ -133,7 +133,7 @@ h2 {
 }
 
 
-@media screen and (max-width: 1199px) {
+@media screen and (orientation: portrait) {
     main {
       margin-left: auto;
       margin-right: auto;
@@ -141,7 +141,10 @@ h2 {
     }
     
     .card {
+      box-sizing: border-box;
       text-align: center;
+      width: 100%;
+      height: auto ;
       padding-left: 0px;
       padding-right: 0px;
       padding-top: 5px;
@@ -152,6 +155,7 @@ h2 {
     }
   .responsive {
     width: 100%;
+    box-sizing: border-box;
     max-width: auto;
     height: auto;
   }
