@@ -3,18 +3,6 @@ html {
   scroll-behavior:smooth;
   font-family: 'Fira Sans Extra Condensed', sans-serif;
 }
-html::-webkit-scrollbar-track {
-  border-radius: 8px;
-  background-color: #e7e7e7;
-  border: 1px solid #cacaca;
-  box-shadow: inset 0 0 6px rgba(0, 0, 0, .3);
-
-}
-
-html::-webkit-scrollbar-thumb {
-  border-radius: 8px;
-  background-color: #363636;
-}
 
 figure {
   height: fit-content;
@@ -50,7 +38,6 @@ main {
 
 .site-header {
   min-width: 450px;
-  width:100vw;
   height:150px;
   max-height: 200px;
   margin-bottom: 20px;
@@ -70,14 +57,13 @@ main {
   grid-template-areas: 
   "lefty centr1 righty"
   "lefty centr2 righty";
-
-  width: 100vw;
   align-items: center;
   justify-content:space-around;
-  margin-left: 0px;
-  margin-right: 0px; 
+  margin-left: 0;
+  margin-right: 0;
   margin-top: 10px;
   padding: 0;
+
 }
 
 .logo-1 {
