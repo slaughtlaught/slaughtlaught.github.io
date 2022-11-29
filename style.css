@@ -8,8 +8,13 @@ figure {
   height: fit-content;
   display: flex;
   align-items: center;
+  justify-content: center;
   padding: 0 0 0 0;
   margin: 0 0 0 0;
+}
+
+.middle {
+  display: inline-block;
 }
 
 .logo-big {
@@ -123,10 +128,13 @@ main {
   line-height: 1.1; 
   grid-area: righty;
 }
+.logo-3 > p{
+  margin-bottom: 0;
+}
 
 h2 {
   text-align: center;
-  font-size: 55px;
+  font-size: 60px;
   color: #ffffff;  
 }
 
@@ -180,6 +188,7 @@ h2 {
     margin-bottom: 10px;
     text-align: left;
     color:white;
+    font-weight: bold;
   } 
 
 .tel {
